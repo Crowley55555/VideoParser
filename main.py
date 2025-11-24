@@ -1,3 +1,7 @@
-from parser import download_file
+from parser import download_file, download_files
+if __name__ == "__main__":
+    links = [
+        "https://",
+    ]
+    download_files(links, save_dir=r"D:\data")
 
-download_file("https://video1.tizam.cc/new_films/HotBodies3.mp4", save_dir="D:/Гугл диск/New_pars")
